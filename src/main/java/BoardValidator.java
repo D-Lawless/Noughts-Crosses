@@ -88,10 +88,10 @@ public class BoardValidator {
         int oCount = 0;
         boolean xWinner = false;
         boolean oWinner = false;
-        String xWinnerStr = "X is Winner!";
-        String oWinnerStr = "O is Winner!";
-        String notFinishedStr = "Game yet to finish";
-        String invalidBoard = "invalidBoard";
+        final String xWinnerStr = "X is the Winner!";
+        final String oWinnerStr = "O is the Winner!";
+        final String notFinishedStr = "Game yet to finish";
+        final String invalidBoard = "invalidBoard";
 
         for (int i = 0; i < 3; i++) {
 
