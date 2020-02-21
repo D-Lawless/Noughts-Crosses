@@ -49,7 +49,7 @@ public class BoardValidator {
             }
         }
 
-        //This allows us to check if the board is invalid by comparing the amount
+        //This allows us to check if the board is invalid by comparing the amount of X's and O's
         if (xCount > oCount + 1 || xCount < oCount) {
             return invalidBoard;
         }
@@ -81,7 +81,7 @@ public class BoardValidator {
             return oWinnerStr;
         }
 
-        //Checks if 9 ties are on the board returning a tie output
+        //Checks if 9 tiles are on the board returning a tie output
         if (xCount + oCount == 9) {
             return tieGameStr;
         }
